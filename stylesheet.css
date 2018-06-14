@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*	{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+    outline: 1px solid red;
+    }
+
+
+body {
+	background-color:#000000;
+    background-image:
+        url(images/patterns/gplay.png),
+        linear-gradient(
+            #be480a,
+            orange
+        );
+	width: 1000px;
+	margin: 0 auto;
+     }
+
+h1   {
+    font-family: "Manjari thin";
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    }
+h1 span {
+    font-size: 1.6rem;
+    
+/* for a11y */
+}
+
+.maincontainer	{
+    background-color: #ebebeb;
+	width:1000px;
+	margin:0 auto;
+    }
+
+.maincontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+    }
+
+.media	{
+	width: 1000px;
+	height:32px;
+	background-color: #eeeeee;
+	text-align: right;
+	}
+
+.media {
+    margin-right: 50px;
+}
+
+.baner	{
+	height:361px;
+	width:1000px;
+	background-image: url("images/banerbg.jpg");
+	}
+
+.title	{	
+        margin-top:141px;
+		margin-left:81px;
+		width:251px;
+		float:left;
+	    }
+
+.transitionimg	{
+		
+		width:518px;
+		float:left;
+		margin-left:132px;
+		margin-top:17px;		
+		}
+
+.bnrclm {
+    width: 1000px;
+/*    background-color: #ff0000;*/
+    display: block;
+    }
+
+.linkclm{
+    width: 750px;
+    margin-left: 128px;
+    background-image: url(images/navbg.jpg);
+    background-repeat: repeat-x;
+    display: flex;
+    height: 51px; 
+    }
+
+.linkclm:after {
+  content: "";
+  display: table;
+  clear: both;
+    }
+
+.wite {
+    width: 670px;
+    height: 45px;
+    display: flex;
+    background-color: #efefef;
+    }
+
+.deimg1{
+	height:53px;
+	width:53px;
+	float:left;
+	}
+
+.navbar{
+    width: 653px;
+    height: 40px;
+    display: flex;
+    }
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    line-height: 35px;  
+    }
+
+.navbar li+li {
+    border-left: 1px solid #7c7c7c;
+    }
+
+.navbar li {
+    background-color: white;
+    }
+
+.navbar li:first-child {
+    border-bottom-left-radius: 5px;
+    }
+.navbar li:last-child {
+    border-bottom-right-radius: 5px;
+    }
+
+
+li a {
+    text-decoration: none;
+    margin: 0px 40px 0px 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+ }
+
+.deimg2    {
+	height:53px;
+	width:53px;
+	float:right;
+    }
+
+.line {
+    margin-left: 150px;
+    margin-top: 10px;
+    }
+
+.content-wrapper {
+    background-color: #ebebeb;
+    display: flex;
+    padding-top: 22px;
+    }
+
+/*
+.content-wrapper subhd {
+    font-size: 30px;
+    }
+*/
+
+.left-contant {
+    width: 370px;
+    height: 209px;
+    margin-left: 100px;
+    }
+
+h2 {
+/*    font-family: "Manjari thin";*/
+    font-size: 2.rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.right-contant {
+    width: 425px;
+    height: 209px;
+    margin-left: 42px;
+    }
+
+subhd {
+    font-family: vrindha;
+    font-style: normal;
+    font-size: 10px;
+    }
+
+P {
+    font-family: khmer ui;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 10px;
+    }
+
+.rotline {
+    margin-left: 150px;
+    margin-top: 56px;
+    } 
+
+.imgwrapper {
+    width: 910px;
+    height: 217px;
+    margin-left: 45px;
+    display: flex;
+    }
+
+.img-link {
+    position: relative;
+    }
+
+.img-link + .img-link {
+    margin-left: 3px;
+}
+
+.img-title {
+    position: absolute;
+    bottom: 0; left: 0;
+    background-color: black;
+    width: 100%;    
+    text-align: right;
+    padding: 10px;
+    color: white;
+    opacity: 0.8;
+    font-family: sans-serif;
+    }
+
+
+.workimg {
+    margin-left: 3px;
+    }
+
+.projpg {
+    margin-left: 3px;
+    }
+
+.footer {
+    background-image: url(images/footerimg.jpg);
+    height: 111px;
+    margin-top: 57px;
+    }
+
+.foternav    {
+    width: 720px;
+/*    margin-left: 18%;*/
+     margin: 0 18% 0 18%;
+    padding-top: 1%;
+    height: 51px; 
+    text-decoration: none;
+    }
+
+.foternav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    line-height: 35px;
+    font-family: "Manjari thin";
+    }
+
+.foternav li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.coppywrt {
+/*    margin-left: 440px;*/
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    }
